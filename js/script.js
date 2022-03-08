@@ -33,12 +33,3 @@ input.addEventListener("keypress", (event) => {
     addLiToUL();
   }
 });
-
-/**
- * @param  {Number} a
- * @param  {Number} b
- * @retun {Number}
- */
-function add(a, b) {
-  return a + b;
-}
