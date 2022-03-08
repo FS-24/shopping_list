@@ -14,6 +14,7 @@ function addLiToUL() {
 
     // ajouter li a la liste ul
     ul.appendChild(li);
+    localStorage.setItem(input.value,input.value);
     input.value = "";
   }
 }
