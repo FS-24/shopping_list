@@ -1,0 +1,52 @@
+@font-face {
+  font-family: dancing;
+  src: url(../font/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+  background: url("../img/i-like-food.svg");
+}
+
+* {
+  text-align: center;
+}
+.container {
+  background-color: #ffffff;
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  padding: 3%;
+  background-color: rgb(0, 255, 85);
+  border-radius: 5%;
+}
+
+.item {
+  /* font-family: dancing, "Times New Roman", Times, serif;
+  font-size: 1.7 em; */
+  font-weight: bold;
+  cursor: pointer;
+  list-style: circle;
+  display: inline-block;
+  width: 70%;
+  margin: 5px 0px;
+  font-size: larger;
+}
+
+.done {
+  text-decoration: line-through;
+  color: red;
+}
+
+ul > button {
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 20%;
+  /* width: 30%; */
+  font-size: larger;
+  border: thin solid green;
+}
+
+ul {
+  text-align: start;
+}
